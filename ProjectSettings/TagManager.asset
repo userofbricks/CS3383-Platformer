@@ -42,28 +42,19 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Sky
-    uniqueID: 2424883889
+    uniqueID: 3592575089
     locked: 0
-  - name: clouds1
-    uniqueID: 1036406641
+  - name: Cloud 2
+    uniqueID: 2023105607
     locked: 0
-  - name: clouds2
-    uniqueID: 783935913
+  - name: Cloud 3
+    uniqueID: 1878105225
     locked: 0
-  - name: rocks1
-    uniqueID: 2630593691
+  - name: Cloud 4
+    uniqueID: 4133410251
     locked: 0
-  - name: clouds3
-    uniqueID: 296572899
-    locked: 0
-  - name: rocks2
-    uniqueID: 256690071
-    locked: 0
-  - name: playerLayer
-    uniqueID: 287407797
-    locked: 0
-  - name: clouds4
-    uniqueID: 1591572083
+  - name: Player
+    uniqueID: 2137915883
     locked: 0
   m_RenderingLayers:
   - Default
