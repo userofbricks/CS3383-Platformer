@@ -15,8 +15,13 @@ public class BackgroundControler : MonoBehaviour
 
     void FixedUpdate()
     {
-        float distance = camera.transform.position.x * parallaxEffect;
-        float movement = camera.transform.position.x * (1 - parallaxEffect);
+        UpdateParallax(camera.transform.position.x);
+    }
+
+    private void UpdateParallax(float posX)
+    {
+        float distance = posX * parallaxEffect;
+        float movement = posX * (1 - parallaxEffect);
 
         transform.position = new Vector3(startPos + distance, transform.position.y, transform.position.z);
 
