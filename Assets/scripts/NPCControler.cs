@@ -1,0 +1,19 @@
+using UnityEngine;
+
+public class NPCControler : MonoBehaviour
+{
+    public float left = 15f;
+    public float right = 25f;
+    public float speed = 2f;
+    private int direction = 1;
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Translate(Vector2.right * direction * speed * Time.deltaTime);
+        if (transform.position.x >= right)
+            direction = -1;
+        else if (transform.position.x <= left)
+            direction = 1;
+    }
+}
